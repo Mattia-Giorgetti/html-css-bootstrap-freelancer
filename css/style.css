@@ -1,0 +1,50 @@
+/* UTILITY  */
+
+:root {
+    --black: rgb(44, 62, 80);
+    --white: rgb(255, 255, 255);
+    --gray: rgb(58, 84, 109);
+    --dark_gray: rgb(44, 62, 80);
+    --green: rgb(26, 188, 156);
+}
+body {
+    background-color: white;
+    color: black;
+}
+
+.myBg_green {
+    background-color: var(--green);
+}
+.myBg_dark_gray {
+    background-color: var(--dark_gray); 
+}
+.myBg_gray {
+    background-color: var(--gray);
+}
+/* HEADER  */
+header {
+    background-color: var(--black);
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+}
+
+/* MAIN  */
+#jumbo {
+    padding-top: 100px ;
+}
+img.avatar {
+    width: 50%;
+    max-width: 100%;
+}
+
+/* FOOTER  */
+
+.lower_footer p {
+    font-size: 14px;
+}
+.social_icons i {
+    /* padding:0 1rem; */
+    font-size: 1.5rem;
+}
